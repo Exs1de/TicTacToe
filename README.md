@@ -1,4 +1,4 @@
-# TCP tic tac toe GAME
+# TCP tic tac toe GAME (Python 3.6.4)
 
 ## How to play?
 1. run **start_server.py**
