@@ -6,7 +6,7 @@
 * game possible only between 2 players!!!
 
 ## some info
-when 2 clients are connected to server, each client is given with random nickname and symbol (X / O)
+when 2 clients are connected to server, each client is given random nickname and symbol (X / O)
 
 ## Main Menu
 ![example](/images/example_5.png)
