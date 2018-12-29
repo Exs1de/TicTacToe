@@ -35,8 +35,7 @@ when 2 clients are connected to server, each client is given random nickname and
 ## How to start a new game?
 After you game has finished, not dependiong on event (you lose/won/your opponent has disconnected or you left the game)
 server will automaticly restart itself and be ready for new game sessionm, just press Play button in your client
-![server](/images/server_output_2.png)
-
+![server](/images/server_output_3.png)
 
 ## Some client output
 ![server](/images/client_output_1.png)
