@@ -1,9 +1,9 @@
 # TCP tic tac toe GAME
 
 ## How to play?
-** 1. ** run **start_server.py**
-** 1. ** run 2 clients -> **start_client.py** twice
-** 1. ** game possible only between 2 players!!!
+1. run **start_server.py**
+1. run 2 clients -> **start_client.py** twice
+1. game possible only between 2 players!!!
 
 ## some info
 * When 2 clients are connected to server, each client is given random nickname and symbol (X / O)
