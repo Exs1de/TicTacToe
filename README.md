@@ -1,12 +1,14 @@
 # TCP tic tac toe GAME
 
 ## How to play?
-* run **start_server.py**
-* run 2 clients -> **start_client.py** twice
-* game possible only between 2 players!!!
+1 run **start_server.py**
+2 run 2 clients -> **start_client.py** twice
+3 game possible only between 2 players!!!
 
 ## some info
-when 2 clients are connected to server, each client is given random nickname and symbol (X / O)
+* When 2 clients are connected to server, each client is given random nickname and symbol (X / O)
+* do not even try to connect to the server from 3rd... nth client while it is handling game session, you will be redirect back to Main Menu :(
+**Simple rule:** 1 server -> 2 clients.
 
 ## Main Menu
 ![example](/images/example_5.png)
@@ -33,8 +35,8 @@ when 2 clients are connected to server, each client is given random nickname and
 ![server](/images/server_output_2.png)
 
 ## How to start a new game?
-After you game has finished, not dependiong on event (you lose/won/your opponent has disconnected or you left the game)
-server will automaticly restart itself and be ready for new game sessionm, just press Play button in your client
+After your game has finished, not dependiong on event (you lose/won/your opponent has disconnected or you left the game)
+server will automaticly restart itself and be ready for new game sessionm, just press play button (START) in your client
 ![server](/images/server_output_3.png)
 
 ## Some client output
