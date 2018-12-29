@@ -8,7 +8,6 @@
 ### some info
 * When 2 clients are connected to server, each client is given random nickname and symbol (X / O)
 * do not even try to connect to the server from 3rd... nth client while it is handling game session, you will be redirect back to Main Menu :(
-**Simple rule:** 1 server -> 2 clients.
 
 ## Main Menu
 ![example](/images/example_5.png)
