@@ -5,7 +5,7 @@
 1. run 2 clients -> **start_client.py** twice
 1. game possible only between 2 players!!!
 
-## some info
+### some info
 * When 2 clients are connected to server, each client is given random nickname and symbol (X / O)
 * do not even try to connect to the server from 3rd... nth client while it is handling game session, you will be redirect back to Main Menu :(
 **Simple rule:** 1 server -> 2 clients.
