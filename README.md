@@ -9,6 +9,9 @@
 ![example](/images/example_5.png)
 
 ## Some Gemaplay
+![waiting for players](/images/example_6.png)
+
+## Some Gemaplay
 ![waiting for players](/images/example_4.png)
 
 ## Opponent left the game?
