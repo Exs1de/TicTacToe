@@ -34,7 +34,7 @@
 ![server](/images/server_output_2.png)
 
 ## How to start a new game?
-After your game has finished, not dependiong on event (you lose/won/your opponent has disconnected or you left the game)
+After your game has finished, not dependiong on event (you lose / won / your opponent has disconnected or you left the game)
 server will automaticly restart itself and be ready for new game sessionm, just press play button (START) in your client
 ![server](/images/server_output_3.png)
 
