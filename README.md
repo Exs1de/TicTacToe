@@ -8,8 +8,8 @@
 ## Main Menu
 ![example](/images/example_5.png)
 
-## Some Gemaplay
-![waiting for players](/images/example_3.png)
+## Waiting for 2nd player
+![waiting for players](/images/example_2.png)
 
 ## Some Gemaplay
 ![waiting for players](/images/example_4.png)
@@ -21,6 +21,6 @@
 ![example](/images/example_1.png)
 
 ## DRAW
-![example](/images/example_2.png)
+![example](/images/example_3.png)
 
 ![example](/images/example_3.png)
