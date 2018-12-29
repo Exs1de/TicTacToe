@@ -11,6 +11,9 @@
 ## Some Gemaplay
 ![waiting for players](/images/example_4.png)
 
+## Opponent left the game?
+![example](/images/example_1.png)
+
 ## WIN / LOOSE
 ![example](/images/example_1.png)
 
