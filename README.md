@@ -9,10 +9,10 @@
 ![example](/images/example_5.png)
 
 ## Waiting for 2nd player
-![waiting for players](/images/example_2.png)
+![waiting for players](/images/example_4.png)
 
 ## Some Gemaplay
-![waiting for players](/images/example_4.png)
+![waiting for players](/images/example_1.png)
 
 ## Opponent left the game?
 ![waiting for players](/images/example_6.png)
