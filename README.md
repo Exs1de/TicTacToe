@@ -27,4 +27,10 @@ when 2 clients are connected to server, each client is given random nickname and
 ![example](/images/example_3.png)
 
 ## Some server output
-![server](/images/serveroutput_1.png)
+![server](/images/server_output_1.png)
+
+## More server outputs
+![server](/images/server_output_2.png)
+
+## Some client output
+![server](/images/client_output_1.png)
