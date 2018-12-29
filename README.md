@@ -26,3 +26,5 @@ when 2 clients are connected to server, each client is given random nickname and
 ## DRAW
 ![example](/images/example_3.png)
 
+## Some server output
+![server](/images/serveroutput_1.png)
