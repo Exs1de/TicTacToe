@@ -18,9 +18,8 @@
 ![waiting for players](/images/example_6.png)
 
 ## WIN / LOOSE
-![example](/images/example_1.png)
+![example](/images/example_2.png)
 
 ## DRAW
 ![example](/images/example_3.png)
 
-![example](/images/example_3.png)
