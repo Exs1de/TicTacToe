@@ -39,6 +39,6 @@ server will automaticly restart itself and be ready for new game sessionm, just 
 
 Unfortunately if smth went wrong, just run start_server.py one more time :)
 ![server](/images/server_output_3.png)
-#
+
 ## Some client output
 ![server](/images/client_output_1.png)
