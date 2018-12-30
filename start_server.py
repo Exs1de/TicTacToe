@@ -44,7 +44,8 @@ class Server(object):
         print(f'[!!! Server Started !!!] >> {self.host}:{self.port}')  
         self.handle_state(self.current_state)
 
-
+        
+    # Generate server`s own response, which will be sent to clients
     def response(self, player, command):
         r = {
             'time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
@@ -56,7 +57,8 @@ class Server(object):
         r = json.dumps(r, ensure_ascii=False).encode("utf-8")
         player.sendall(r)
 
-
+        
+    # Receive and proccess client response
     def client_response(self, client):
         data = client.recv(1024)
         r = json.loads(data)
@@ -68,7 +70,6 @@ class Server(object):
 
         used_cell = r['used_cell']
 
-        # if self.playboard[used_cell] is '':
         self.playboard[used_cell] = r['player']['symbol']
         
         # print(f"{r['player']['nickname']} pressed {r['used_cell']}")
@@ -131,7 +132,7 @@ class Server(object):
 
         if not err:
             self.current_state = 'STATE_PLAY_GAME'
-            self.handle_state('STATE_PLAY_GAME')
+            self.handle_state(self.current_state)
 
 
     def play_game(self):
