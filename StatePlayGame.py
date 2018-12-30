@@ -308,15 +308,7 @@ class StatePlayGame(object):
         if status == 7:
             self.l.config(text='Opponent left the game :(', fg='red')
 
-
-    def draw_X(self, btn):     
-        self.btn_dict[btn].config(text='X')
-
-
-    def draw_O(self, btn):     
-        self.btn_dict[btn].config(text='O')
-
-
+                               
     def update_all_buttons(self):
         for btn in self.btn_dict.keys():
             self.btn_dict[btn].config(bg='SystemButtonFace')
@@ -354,7 +346,7 @@ class StatePlayGame(object):
             if playboard[btn] is not '':
                 self.btn_dict[btn].config(text=playboard[btn])
 
-
+    # defined all win combos
     def highlight_win_combo(self, combo, color):
         combo = int(combo)
         if combo == 1: 
@@ -402,12 +394,13 @@ class StatePlayGame(object):
         del self
         print('Client instance deleted!')
 
-
+# apply this actions "on closing" tkinter window
 def on_closing_playgame(obj):
     try:
         obj.exit = True
         print('closing window')
-
+        
+        # stop connection + obj.exit=True => break "while True" in Thread
         try:
             obj.client.s.close()
         except Exception as e:
