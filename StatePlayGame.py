@@ -30,9 +30,9 @@ class Client(object):
             print('AFTER WAITING 3 SECONDS')
             print('CONNECTION FAILED')
             print(e)
-            self.game.stop_thread_and_go_to_MainMenu()
-
-
+            P.main_menu_click()
+            
+            
     # receiving jsons from Server and apply specific actions to Game
     def receiving(self, name, sock):
         print('RECEIVING MODE')
