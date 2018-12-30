@@ -137,7 +137,8 @@ class Server(object):
 
     def play_game(self):
         print('STATE_PLAY_GAME')
-
+        
+        # decide who is X player (random)
         keys = list(self.players.keys())
         X_PLAYER = keys[randint(0, 1)]
         keys.remove(X_PLAYER)
@@ -145,7 +146,8 @@ class Server(object):
 
         print('X_PLAYER ->', X_PLAYER)
         print('O_PLAYER ->', O_PLAYER)
-
+        
+        # players are given random nicknames
         for player in self.players:
             nickname = self.nicknames[randint(0, len(self.nicknames)-1)]
             self.players[player]['nickname'] = nickname
