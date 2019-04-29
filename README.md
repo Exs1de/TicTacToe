@@ -1,4 +1,4 @@
-# TCP tic tac toe GAME (Python 3.6.4)
+# TCP tic tac toe GAME (Python 3.6.4) (PLEASE DO NOT WATCH TIHS)
 
 ## How to play?
 1. run **start_server.py**
